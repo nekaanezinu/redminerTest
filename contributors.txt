@@ -1,0 +1,10 @@
+zapic0
+
+Redmine Logo is Copyright (C) 2009 Martin Herr and is licensed under the Creative Commons Attribution-Share Alike 2.5 Generic license.
+See http://creativecommons.org/licenses/by-sa/2.5/ for more details.
+
+Raised fist from http://publicdomainvectors.org/
+
+Select2 from https://select2.github.io/
+
+Jquery from https://jquery.com/

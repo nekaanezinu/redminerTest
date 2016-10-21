@@ -1,0 +1,27 @@
+{
+   "browser_action": {
+      "default_icon": "redminer.png",
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "js": [ "jquery-2.2.1.min.js", "content.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "content_security_policy": "script-src 'self' https://www.google-analytics.com; object-src 'self'",
+   "description": "Wew lad",
+   "icons": {
+      "128": "redminer.png",
+      "16": "redminer.png",
+      "48": "redminer.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhKc5eHmiR4AXIhmMz4g0yGHSAhNbu6q4+SSxGtwzYE+V4NGv0xIMaRsNfTxpzyqHamRwXaJmYtEX2qLyI+nI3US1zR6v6D5qfYyhPUSbIAk01lpGZSSOUgq/LA+3zjjJ4NaOtZhf9FDHC1zYA4ti2/9Ild/BxiMG9idTeeHlZGmuz+r4RaTqwUKRLHdci/feWmsBJGYa13G8pOpZ9vrkW53HPKiZa5SaJQ+PTAY+6CPQXxYQtxtJmqDOMLM6j5woDBq/vv0RdCHb2VtYpnwC1vKuLU06tD+xtrhoFSmhgeCd6rz6df1BCO7JfcN9RUroR6ErAN8cSrbeHF+S3w+ZUwIDAQAB",
+   "manifest_version": 2,
+   "name": "Making redmine great again",
+   "options_ui": {
+      "chrome_style": true,
+      "page": "options.html"
+   },
+   "permissions": [ "tabs", "storage", "https://ajax.googleapis.com/", "https://ssl.google-analytics.com/" ],
+   "version": "1.0.0.5",
+   "web_accessible_resources": [ "reload.png" ]
+}
